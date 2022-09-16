@@ -32,6 +32,7 @@ const Home: NextPage = () => {
           <div className='flex items-center bg-gray-700 rounded-full w-1/3'>
             <input 
               type='text'
+              autoComplete='false'
               className='outline-none py-4 px-5 w-11/12 bg-transparent'
               placeholder='Search on the web..'
               value={search}
